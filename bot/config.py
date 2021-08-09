@@ -5,7 +5,7 @@ class Config:
 
     API_ID = int(os.environ.get("API_ID", 2870743))
     API_HASH = os.environ.get("API_HASH", "ae3b52c01ee412de9060742628296c88")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1835205769:AAGinJdCspOeC1lYl8csRZQnBELKMYrw_M0")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1835205769:AAGYRwkcDPY02AnMdBGWDn2yMnEpnZtSYFM")
     SESSION_NAME = os.environ.get("SESSION_NAME", "soethuya")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001548862820"))
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://soethuya:soethuya@cluster0.xz9fj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
